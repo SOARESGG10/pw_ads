@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,html{
+    font-family: sans-serif;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-color: #DCDCDC;
+    position: relative;
+}
+
+.box{
+    width: 600px;
+    height: 400px;
+    position :absolute;
+
+    left: 50%;
+    bottom: 50%;
+    margin-left: -300px;
+    margin-bottom: -200px;
+
+    background-color: #FFF;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#title-media{
+    padding: 20px;
+    font-style: italic;
+}
+
+.media{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.media input{
+    padding: 5px;
+    width: 50px;
+}
+
+#confirmacao{
+    color: green;
+    font-weight: 700;
+}
+
+.info-aluno{
+    text-align: center;
+}
+
+.container-botao{
+    text-align: center;
+}
+
+#botao-calcular{
+    padding: 10px;
+    background-color:#6495ed;
+    border: 1px solid #000000;
+    border-radius: 10px;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #FFF;
+    cursor: pointer;
+    width: 200px;
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>JS - MEDIA</title>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            <h2 id="title-media">Calcule sua média escolar</h2>
+
+            <div class="media">
+                <div class="input-notas">
+                    <label for="">Informe a primeira nota: </label>
+                    <input type="text" id="nota1" name="nota1" required>
+                </div>
+
+                <div class="input-notas">
+                    <label for="">Informe a segunda nota: </label>
+                    <input type="text" id="nota2" name="nota2" required>
+                </div>
+
+                <span id="confirmacao"></span>
+
+                <div class="container-botao">
+                <input type="submit" value="Calcular" id="botao-calcular" onclick="calcularMedia();">
+                </div>
+
+                <p class="info-aluno">Média: <span id="info-media">###</span></p>
+                <p class="info-aluno">Situação: <span id="info-situacao">###</span></p>
+            </div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
